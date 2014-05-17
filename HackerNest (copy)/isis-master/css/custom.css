@@ -1,0 +1,398 @@
+html body {
+	font-family: "Avant Garde", "Futura", sans-serif;
+	margin: 0;
+}
+
+a {
+	color: #2E2E2E;
+}
+
+article {
+	height: 700px;
+	padding: 10px;
+}
+
+.nav-bar {
+	text-transform: uppercase;
+	font-size: 5px;
+}
+
+.button {
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #da7b00;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+	margin-top: 35px;
+	font-size: 11px;
+	letter-spacing: 0.2em;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	}
+
+/* NestedAccordion Side Menu*/
+
+.cbp-ntaccordion {
+	color: #151515;
+}
+
+#cbp-ntaccordion {
+	color: #151515;
+}
+
+.knob-counter {
+	/*background-image: url('img/knob.png');*/
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.article-background {
+	background-position: top center;
+	background-repeat: repeat;
+	background-size: 500px 700px;
+
+}
+
+.article-title {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bolder;
+	letter-spacing: 0.25em;
+	color: #151515;
+}
+
+/* feature text in articles */
+
+.recipe-feature-text {
+	float: right;
+	bottom: 0;
+}
+
+#recipe-article-header-background {
+	background: url('http://placehold.it/300&text=[]');
+}
+
+#ingredients-panel-background {
+	background: url('http://placehold.it/300&text=[Ingredients]');
+}
+
+#cooking-tools-background {
+	background: url('http://placehold.it/300&text=[Cooking Tools]');
+}
+
+#start-whisking-background {
+	background: url('http://placehold.it/300&text=[Start-Whisking]');
+}
+
+#wait-uncover-background {
+	background: url('http://placehold.it/300&text=[Wait While Uncovered]');
+}
+
+#whisk-to-dissolve-background {
+	background: url('http://placehold.it/300&text=[Whisk to Dissolve]');
+}
+
+#shaggy-ball-background {
+	background: url('http://placehold.it/300&text=[Make a Shaggy Ball]');
+}
+
+/*-- Accordian CSS --*/
+
+#cbp-ntaccordion {
+	background-color: #ffc273;
+	padding: 0.5em;
+}
+
+#cbp-ntaccordion > div.ingredients-panel {
+	background-color: #ffefda;
+	padding: 1em;
+	border: 1px solid #ffac40;
+}
+
+.cbp-ntaccordion h5 {
+	color: black;
+}
+
+.cbp-ntaccordion h3 {
+	color: white;
+	padding: 0.25em 0;
+	font-weight: 600;
+	border-bottom: 1px solid white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#cbp-ntaccordion > hr {
+	border-color: white;
+}
+
+.cbp-ntsubaccordion {
+list-style: none;
+margin-bottom: 4em;
+}
+
+/*-- Header CSS --*/
+
+#isis-header-div {
+	background-color: #ffac40;
+}
+
+#isis-header-div hr {
+	border-color: #a62d00;
+}
+
+#isis-header-div .isis-foods-nocircle-whisk-nocircle {
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#isis-header-div h1 {
+	font-weight: 600;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#isis-header-div h1 small {
+	color: #a62d00;
+	text-shadow: none;
+}
+
+/*-- Info Window CSS --*/
+
+.article-background {
+	background-color: #ffefda;
+}
+
+.isis {
+	background-color: #ffc273;
+}
+
+.article-background a {
+	color: black;
+	font-weight: 600;
+}
+
+/*-- Cooking Tool List Items --*/
+
+.panel.cooking-tools-background {
+	height: 6em;
+	}
+
+.panel.cooking-tools-background li:first-child {
+	margin-left: -1em;
+}
+
+.panel.cooking-tools-background li {
+	float: left;
+	list-style: none;
+}
+
+.panel {
+	padding: 0.35em 1.25rem;
+}
+
+.panel h5 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#cbp-ntaccordion > div.cooking-tools li:first-child {
+	margin-left: 0em;
+}
+
+#cbp-ntaccordion > div.cooking-tools li {
+	float: left;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	list-style: none;
+}
+
+#dryout-overnight-background {
+	background: url('http://placehold.it/300&text=[Overnight & Rise]');
+}
+
+#two-inch-divide-by-three {
+	background: url('http://placehold.it/300&text=[Divide by Three]');	
+}
+
+#cover-loaf-background {
+	background: url();
+}
+
+.cover-loaf-egg-salt-background {
+
+}
+
+.baked-cooling-background {
+
+}
+
+canvas {
+display: block;
+}
+
+.knob-counter {
+	width: 200px;
+	margin-bottom: 3em;
+}
+
+.knob {
+	width: 104px !important;
+	height: 66px !important;
+	position: relative !important;
+	border: 0px !important;
+	background-image: none !important;
+	font-weight: bold !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-size: 56px !important;
+	line-height: normal !important;
+	font-family: Futura !important;
+	text-align: center !important;
+	padding: 0px !important;
+	-webkit-appearance: none !important;
+	background-position: initial !important;
+	background-repeat: initial !important;
+	background-color: transparent !important;
+	color: black !important;
+	box-shadow: none !important;
+	margin: auto !important;
+	white-space: normal !important;
+	margin-top: -1.7em !important;
+	padding-bottom: 2em !important;
+}
+
+/*-- Warning errors --*/
+
+.start {
+	height: 3em;
+	padding-top: 1em;
+	background-color: #95b13c;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	display: inline-block;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	border: 1px solid rgba(0,0,0,0.25);
+}
+
+.error {
+	height: 3em;
+	font-size: 1.2em;
+	padding-top: 1em;
+	background-color: #ef4731;
+	color: white;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	margin-bottom: 0.5em;
+	border: 1px solid rgba(0,0,0,0.25);
+	display:none;
+}
+
+.error-chop {
+	height: 3em;
+	font-size: 1.2em;
+	padding-top: 1em;
+	background-color: #fbe21f;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+	border: 1px solid rgba(0,0,0,0.25);
+	display:none;
+}
+
+a.next {
+background-color: #95b13c !important;
+padding: 10px 15px;
+margin-right: 0 !important;
+margin-top: 0 !important;
+display: inline-block;
+text-transform: none;
+font-weight: bold;
+color: white !important;
+letter-spacing: 0.1em;
+position: absolute;
+bottom: 1em;
+right: 1em;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.25);
+}
+
+.panel #panel-sift a.next
+background-color: #95b13c !important;
+padding: 10px 15px;
+margin-right: 0 !important;
+margin-top: 0 !important;
+display: inline-block;
+text-transform: none;
+font-weight: bold;
+color: white !important;
+letter-spacing: 0.1em;
+position: absolute;
+bottom: 1em;
+right: 1em;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.25);
+}
+
+.panel a.next {
+background-color: #95b13c !important;
+padding: 10px 15px;
+margin-right: 0 !important;
+margin-top: 0 !important;
+display: inline-block;
+text-transform: none;
+font-weight: bold;
+color: white;
+letter-spacing: 0.1em;
+position: absolute;
+bottom: 1em;
+right: 1em;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.25);
+}
+
+/*-- Sidebar List Style --*/
+
+#cbp-ntaccordion ul {
+	list-style: none;
+}
+
+#cbp-ntaccordion ul li h4:before {
+	content: url('../img/arrow-side.png');
+	float: left;
+	margin-right: 10px;
+}
+
+#cbp-ntaccordion ul li h4:hover:before {
+	content: url('../img/arrow-diagonal.png');
+	float: left;
+	margin-right: 10px;
+}
+
+#cbp-ntaccordion ul li h4.selected:before {
+	content: url('../img/arrow-down.png');
+	float: left;
+	margin-right: 10px;
+}
+.api-result {
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+
+#yellowpages-modal h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.api-result a {
+    color: #47a3da !important;
+}

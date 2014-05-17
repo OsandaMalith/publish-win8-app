@@ -1,0 +1,39 @@
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.concierge-activity-card {
+	/* width: 30px;*/
+	/*height: 30px;*/
+}
+
+div#food-cards-grid-1 {
+display: -webkit-box;
+}
+
+div#food-cards-grid-2 {
+display: -webkit-box;
+}
+
+li#cac-section {
+	/* border: 1px solid grey; */
+	background-color: white;
+	opacity: .25;
+padding: 10px;
+width: 33%;
+margin: 10px;
+z-index: -99;
+}
+
+h3#cac-title {
+text-align: center;
+font-weight: 500;
+}
+
+#cac-icon {
+width: 20%;
+margin: 0 auto;
+display: block;
+padding-top: 30px;
+}
