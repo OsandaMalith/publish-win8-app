@@ -1,7 +1,7 @@
 <?php
 
-function find_business() {
+function secure_find_business() {
 	echo 'blah';
 }
 
-call_user_func( $_GET['method'] );
+call_user_func( "secure_".$_GET['method'] );
